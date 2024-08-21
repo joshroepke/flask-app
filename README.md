@@ -30,7 +30,7 @@ Prometheus will be built following running Docker Compose and can be accessed at
 
 ```bash
 kubectl apply -f k8s/
-minikube service prometheus-service
+minikube service flask-app-service
 minikube service prometheus
 ```
 
